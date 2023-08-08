@@ -1,0 +1,127 @@
+html body{
+    font-family: 'Oswald', sans-serif;
+}
+
+body{
+    position: relative;
+    min-height: 100vh;
+}
+
+.header{
+    /* border: 3px solid red; */
+    display: flex;
+    gap: 10px;
+}
+
+.header > div{
+    /* border: 3px solid black; */
+    flex: 2;
+}
+.main{
+    box-sizing: border-box;
+    /* border: 3px solid blue; */
+    padding: 20px 10px 0px 10px;
+} 
+
+.second{
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    display: flex;
+}
+.second > div{
+    justify-content: center;
+    /* border: 2px solid green; */
+    flex: 2;
+}
+
+.main-head{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main-head > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-head > div{
+    flex: 1;
+    /* border: 3px solid brown; */
+    
+}
+.main-head#center{
+    flex:2;
+}
+
+.main-table{
+    /* border: 3px solid red; */
+    padding-top: 30px;
+}
+
+tbody > tr{
+    /* background-color: #ebeced; */
+    padding: 10px 0px 10px 0px;
+}
+
+.card {
+        text-align: center;            
+ }
+
+ #comp, #curr{
+    border: none;
+    background:#dfe1e3 ;
+    height: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-group > button{
+    border: none;
+    background:#dfe1e3 ;
+    height: 80%;
+    border-radius: 10px;
+    
+}
+
+.btn-group a{
+    color: black;
+    border-radius: 3px;
+    
+}
+
+.header > .third{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* border: 2px solid red; */
+}
+.third .tele{
+    margin: 10px;
+    padding: 6px 20px;
+    border-radius: 10px;
+    background-color: #3dc6c1;
+    color: white;
+}
+.third > div{
+    margin: 3px;
+    /* border: 2px solid green; */
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+/* .btn-group{
+    justify-content: center;
+    width: 40%;
+}
+
+
+.btn-group > a{
+    border: 3px solid blue;
+} */
+
+img{
+    width: 60%;
+} 
